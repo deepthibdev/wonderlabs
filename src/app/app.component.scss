@@ -1,0 +1,25 @@
+
+.headerbar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  color: white;
+  //background-color: #303131;
+  background-image:
+    linear-gradient(
+        to right,
+        #303131 , white
+    );
+}
+
+.page-background {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.body {
+  width:100%;
+  height:100%;
+}

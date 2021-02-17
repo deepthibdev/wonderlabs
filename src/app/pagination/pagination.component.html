@@ -1,0 +1,7 @@
+<nav aria-label="...">
+  <ul class="pagination pagination-lg justify-content-center">
+    <li class="page-item" *ngFor="let val of pageSize" >
+      <button class="page-link" href="#" tabindex="-1" (click)="selectPage(val)" [disabled]="val === selectedPage">{{val}}</button>
+    </li>
+  </ul>
+</nav>

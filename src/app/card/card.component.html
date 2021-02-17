@@ -1,0 +1,12 @@
+
+<!-- Card -->
+<div class="card ovf-hidden" fxFlex="0 1 calc(33.3% - 32px)" *ngIf="user">
+  <img style="width: 40px; height: 40px;" class="card-img-top" src="{{user.avatar}}" alt="Card image cap">
+  <hr>
+  <div class="card-body">
+    <h5 class="card-title mt-2 mb-0">{{user.first_name}} {{user.last_name}}</h5>
+    <p class="card-text small text-uppercase text-muted mt-1">{{user.email}}</p>
+    <hr>
+    <h5 class="font-weight-bold my-4">Join our community</h5>
+  </div>
+</div>
