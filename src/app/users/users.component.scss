@@ -1,1 +1,11 @@
+.content {
+  padding: 16px;
+}
 
+.content > app-card {
+  width: 400px;
+}
+
+app-card {
+  min-width: 100%;
+}

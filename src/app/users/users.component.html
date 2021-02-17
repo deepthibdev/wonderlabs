@@ -1,6 +1,6 @@
-<div *ngIf="users$ | async as users">
-  <div fxLayout="row wrap" fxLayoutGap="16px grid center" fxLayoutAlign="flex-start">
-    <div class="card-deck col-xl-4 mb-4 " *ngFor="let u of users.data; let i = index">
+<div class="content" *ngIf="users$ | async as users">
+  <div fxLayout="row wrap" fxLayoutGap="16px grid" fxLayoutAlign="center">
+    <div fxFlex="33%" fxFlex.xs="100%" fxFlex.sm="50%" fxLayoutAlign="center" class="card-deck col-xl-4 mb-4 " *ngFor="let u of users.data; let i = index">
       <app-card [user]="u"></app-card>
     </div>
   </div>
